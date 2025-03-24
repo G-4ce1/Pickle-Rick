@@ -67,7 +67,7 @@ body {
 
     .spacing_1 {
         text-align: left;
-        padding-left: 0;
+        padding-left: 0; /* Adjusts alignment for better readability */
     }
 
     .project {
@@ -75,7 +75,16 @@ body {
     }
 
     .td_one {
-        padding: 10px 5px 0 0; /* Adjusts table spacing */
+        padding: 10px 5px 0 0; /* Adjusts table cell padding */
+    }
+
+    .Pickle_Rick {
+        margin-left: 0%; /* Further adjusts for smaller screens */
+    }
+
+    .clickme {
+        margin: auto; /* Further adjusts for smaller screens */
+        width: 100%;
     }
 }
 
@@ -90,16 +99,25 @@ body {
 
     .spacing_1 {
         text-align: left;
-        padding-left: 0;
+        padding-left: 0; /* Ensures proper left alignment */
     }
 
     .project {
         padding-right: 0; /* Removes right padding for small screens */
     }
+
+    .Pickle_Rick {
+        margin-left: 0%; /* Further adjusts for smaller screens */
+    }
+
+    .clickme {
+        margin: auto; /* Further adjusts for smaller screens */
+        width: 100%;
+    }
 }
 
 .Pickle_Rick {
-    margin-left: 37.5%;
+    margin-left: 37.5%; /* Centers Pickle Rick */
 }
 
 .clickme {
