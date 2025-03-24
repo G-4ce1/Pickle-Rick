@@ -1,0 +1,122 @@
+html {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+body {
+    margin: 0; 
+}
+
+.table_one {    /* Header table */
+    width: 100%; 
+    border-collapse: collapse; /* Removes default table spacing */
+}
+
+/* Header Section */
+.name {
+    border: 0;
+    background-color: #4caf50; 
+    color: white; 
+    padding: 5px 0 45px 22%; /* Spaces content inside header */
+}
+
+/* Skills and Projects Sections */
+.skills, .projects {
+    padding: 40px 0 40px 20px; /* Adds space inside the container */
+    margin: 25px 26%; /* Centers content */
+    border: 3px solid transparent; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px lightgrey; /* Adds a soft shadow */
+}
+
+/* Table Styling for Skills */
+.td_one {
+    padding: 20px 10px 0 0; /* Adds spacing between table items */
+}
+
+/* Project Description Styling */
+.project {
+    padding-right: 5%; /* Adds right padding for readability */
+}
+
+/* Job Title Styling */
+.job {
+    text-align: left;
+    padding-left: 11%;
+}
+
+/* Spacing Adjustments */
+.spacing, .spacing_1 {
+    margin-bottom: 0;
+}
+
+.spacing_1 {
+    text-align: center;
+    margin-left: 1%;
+    padding-right: 17%;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+    .name {
+        padding: 5px 10%; /* Adjusts padding for smaller screens */
+    }
+
+    .skills, .projects {
+        margin: 25px 10%; /* Reduces margin for smaller screens */
+    }
+
+    .spacing_1 {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .project {
+        padding-right: 2%; /* Reduces padding on smaller screens */
+    }
+
+    .td_one {
+        padding: 10px 5px 0 0; /* Adjusts table spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+        padding: 5px 5%; /* Further reduces padding for small screens */
+    }
+
+    .skills, .projects {
+        margin: 25px 5%; /* Further reduces margins */
+    }
+
+    .spacing_1 {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .project {
+        padding-right: 0; /* Removes right padding for small screens */
+    }
+}
+
+.Pickle_Rick {
+    margin-left: 37.5%;
+}
+
+.clickme {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(35, 90, 19);
+    margin-left: 47%;
+    margin-right: 47%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 0%;
+}
+
+footer {
+    background-color: #4caf50;
+    padding: 3%;
+    margin-bottom: 0%;
+}
