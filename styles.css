@@ -79,7 +79,7 @@ body {
     }
 
     .Pickle_Rick {
-        margin-left: 25%; /* Adjusts alignment for smaller screens */
+        margin-left: 0%; /* Adjusts alignment for smaller screens */
     }
 
     .clickme {
@@ -116,9 +116,6 @@ body {
     }
 }
 
-.Pickle_Rick {
-    margin-left: 37.5%; /* Centers Pickle Rick */
-}
 
 .clickme {
     margin: auto;
