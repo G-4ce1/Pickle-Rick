@@ -79,12 +79,12 @@ body {
     }
 
     .Pickle_Rick {
-        margin-left: 0%; /* Further adjusts for smaller screens */
+        margin-left: 25%; /* Adjusts alignment for smaller screens */
     }
 
     .clickme {
-        margin: auto; /* Further adjusts for smaller screens */
-        width: 100%;
+        margin-left: 20%; /* Centers the button with adjusted margins */
+        margin-right: 20%;
     }
 }
 
@@ -107,12 +107,12 @@ body {
     }
 
     .Pickle_Rick {
-        margin-left: 0%; /* Further adjusts for smaller screens */
+        margin-left: auto; /* Further adjusts for smaller screens */
     }
 
     .clickme {
-        margin: auto; /* Further adjusts for smaller screens */
-        width: 100%;
+        margin-left: 10%; /* Adjusts button margin for small screens */
+        margin-right: 10%;
     }
 }
 
