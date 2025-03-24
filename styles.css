@@ -78,10 +78,6 @@ body {
         padding: 10px 5px 0 0; /* Adjusts table cell padding */
     }
 
-    .Pickle_Rick {
-        margin-left: 0%; /* Adjusts alignment for smaller screens */
-    }
-
     .clickme {
         margin-left: 20%; /* Centers the button with adjusted margins */
         margin-right: 20%;
@@ -104,10 +100,6 @@ body {
 
     .project {
         padding-right: 0; /* Removes right padding for small screens */
-    }
-
-    .Pickle_Rick {
-        margin-left: auto; /* Further adjusts for smaller screens */
     }
 
     .clickme {
